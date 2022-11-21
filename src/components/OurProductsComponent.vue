@@ -1,29 +1,10 @@
 <script>
+import SmallCarousel from "../components/SmallCarousel.vue"
+
 export default {
     name: "Our Products Component",
-    data() {
-        return {
-            carouselElements:[
-            {
-                name: "Super Biscotti",
-                tipo: "Biscotti",
-                prezzo: "$19.00 - $25.00",
-                img:"./assets/img/choco-chip-cookies-400x510.jpg"
-            },
-            {
-                name: "Super Cuoricini",
-                tipo: "Biscotti",
-                prezzo: "$23.00 - $29.00",
-                img:"./assets/img/strawberry-jam-cookies-400x510.jpg"
-            },
-            {
-                name: "Ciambelline Fragoline",
-                tipo: "Ciambelline",
-                prezzo: "$11.00 - $22.00",
-                img:"./assets/img/strawberry-donut-400x510.jpg"
-            }
-            ]
-        }
+    components: {
+        SmallCarousel
     }
 }
 </script>
@@ -32,7 +13,7 @@ export default {
   <div class="our_products_content container_100_leftright">
     <div class="row">
         <!--Left Text elements-->
-        <div class="col-4">
+        <div class="col-4 p-0">
             <p class="subtitle">
                 OUR PRODUCTS
             </p>
@@ -47,9 +28,7 @@ export default {
         <!--//Left Text elements-->
         <!--Right Small carousel-->
         <div class="col-8">
-            <div v-for="element in carouselElements" class="carousel_elements d-flex align_items">
-                <img class="small_carousel_image" :src="element.img" alt="Product Image">
-            </div>
+            <SmallCarousel></SmallCarousel>
         </div>
         <!--//Right Small carousel-->
     </div>
@@ -62,7 +41,4 @@ export default {
     padding-bottom: 100px;
 }
 
-.small_carousel_image {
-    width: 350px;
-}
 </style>
