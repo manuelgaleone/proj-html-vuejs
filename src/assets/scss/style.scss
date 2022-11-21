@@ -1,1 +1,41 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+/*
+
+Fonts:
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+
+Palette:
+
+Global
+    marrone chiaro #6a5243
+    grigio scuro/nero #0e0eOd
+    grigio #020205
+    turchese scuro #0a5e6c
+    beige #rOcaal
+    arancione #d68843
+    violetto #bda2f3
+    violetto scuro #5b2ca2
+    verde #287a00
+
+Median
+    
+
+*/
+
+.header_content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/*General Settings*/
+.align_items {
+    align-items: center;
+}
+
+.justify_end {
+    justify-content: end;
+}
