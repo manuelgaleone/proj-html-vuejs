@@ -4,6 +4,7 @@ import JumboComponent from "../components/JumboComponent.vue"
 import OurProductsComponent from "../components/OurProductsComponent.vue"
 import WeddingsComponent from "../components/WeddingsComponent.vue"
 import BakeryCarouselComponent from "../components/BakeryCarouselComponent.vue"
+import ProcessesComponent from "./ProcessesComponent.vue"
 
 export default {
   components:{
@@ -11,7 +12,8 @@ export default {
     JumboComponent,
     OurProductsComponent,
     WeddingsComponent,
-    BakeryCarouselComponent
+    BakeryCarouselComponent,
+    ProcessesComponent
 }
 }
 </script>
@@ -22,6 +24,7 @@ export default {
   <OurProductsComponent></OurProductsComponent>
   <WeddingsComponent></WeddingsComponent>
   <BakeryCarouselComponent></BakeryCarouselComponent>
+  <ProcessesComponent></ProcessesComponent>
 </template>
 
 <style lang="scss" scoped>
