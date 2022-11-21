@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="container_100_topbottom container_100_leftright">
+  <div class="pt-5 pb-5 container_100_leftright">
     <div class="row">
         <!--Left Text elements-->
         <div class="col-4 p-0">

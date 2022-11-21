@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="container_100_topbottom container_100_leftright">
+  <div class="pt-10 pb-10 container_100_leftright">
     <div class="weddings_titles">
         <p class="subtitle text-center">
             CORPORATE & WEDDINGS

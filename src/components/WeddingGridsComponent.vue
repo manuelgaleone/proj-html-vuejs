@@ -12,7 +12,7 @@ export default {
             <div class="image_hover d_flex justify_center">
                 <img class="wedding_images" src="../assets/img/corporate-hover-bg.jpg" alt="Wedding image">
                 <div class="corporate_texts d_flex column justify_center text-center">
-                    <p class="subtitle m-0">INTERNATIONAL BAKERY</p>
+                    <p class="subtitle_wedding m-0">INTERNATIONAL BAKERY</p>
                     <h4 class="small_wedding_title py-2">Corporate Events</h4>
                     <a class="wedding_button" href="#">Explore more</a>
                 </div>
@@ -23,7 +23,7 @@ export default {
             <div class="image_hover d_flex justify_center">
                 <img class="wedding_images" src="../assets/img/wedding-hover-bg.jpg" alt="Wedding image">
                 <div class="corporate_texts d_flex column justify_center text-center">
-                    <p class="subtitle m-0">PRIVATE DINING HALL</p>
+                    <p class="subtitle_wedding m-0">PRIVATE DINING HALL</p>
                     <h4 class="small_wedding_title py-2">Weddings & Parties</h4>
                     <a class="wedding_button" href="#">Explore more</a>
                 </div>
@@ -61,6 +61,11 @@ export default {
     font-size: 25px;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
+}
+
+.subtitle_wedding {
+    color: #d5d5d5;
+    font-size: 13px;
 }
 
 .wedding_button {

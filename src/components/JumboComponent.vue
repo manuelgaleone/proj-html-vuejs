@@ -16,7 +16,7 @@ export default {
                     The Perfect Fresh <br>
                     Bread
                 </h1>
-                <p class="jumbo_caption">
+                <p class="small_caption">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
                     Rem ducimus eveniet molestiae laborum totam nobis modi temporibus? <br>
                     Eaque, excepturi debitis voluptatum sit.
@@ -39,11 +39,6 @@ export default {
 
 .jumbo_container {
     overflow: hidden;
-}
-
-.jumbo_caption {
-    color: #929295;
-    font-size: 13px;
 }
 
 .jumbo_button {

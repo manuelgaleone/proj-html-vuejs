@@ -3,14 +3,16 @@ import HeaderComponent from "../components/HeaderComponent.vue"
 import JumboComponent from "../components/JumboComponent.vue"
 import OurProductsComponent from "../components/OurProductsComponent.vue"
 import WeddingsComponent from "../components/WeddingsComponent.vue"
+import BakeryCarouselComponent from "../components/BakeryCarouselComponent.vue"
 
 export default {
   components:{
     HeaderComponent,
     JumboComponent,
     OurProductsComponent,
-    WeddingsComponent
-  }
+    WeddingsComponent,
+    BakeryCarouselComponent
+}
 }
 </script>
 
@@ -19,6 +21,7 @@ export default {
   <JumboComponent></JumboComponent>
   <OurProductsComponent></OurProductsComponent>
   <WeddingsComponent></WeddingsComponent>
+  <BakeryCarouselComponent></BakeryCarouselComponent>
 </template>
 
 <style lang="scss" scoped>

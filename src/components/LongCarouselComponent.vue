@@ -1,9 +1,9 @@
 <script>
 export default {
-    name:"Small Carousel",
+    name:"Long Carousel Component",
     data() {
         return {
-            carouselElements:[
+            longCarouselElements:[
             {
                 name: "Choco Chips Cookies",
                 tipo: "Biscotti",
@@ -18,6 +18,20 @@ export default {
                 img:"../src/assets/img/strawberry-jam-cookies-400x510.jpg",
                 active: true
             },
+            {
+                name: "Strawberry Donut",
+                tipo: "Ciambelline",
+                prezzo: "$13.00 - $29.00",
+                img:"../src/assets/img/strawberry-donut-400x510.jpg",
+                active: true
+            },
+            {
+                name: "Perfect Macarons",
+                tipo: "Biscotti",
+                prezzo: "$23.00 - $29.00",
+                img:"../src/assets/img/perfect-macarons-400x510.jpg",
+                active: true
+            }
             ]
         }
     }
@@ -25,16 +39,22 @@ export default {
 </script>
 
 <template>
-    <div class="small_carousel d_flex align_items justify_end">
-        <div class="small_carousel_elements d_flex align_items">
-            <div v-for="element in carouselElements" class="mx-2">
+    <div class="long_carousel d_flex align_items justify_end">
+        <div class="long_carousel_elements d_flex align_items">
+            <div v-for="element in longCarouselElements" class="mx-2">
                 <div class="carousel_image_container">
-                    <img :class="{ active: element.active }" class="small_carousel_image" :src="element.img" alt="Product Image">
+                    <img :class="{ active: element.active }" class="long_carousel_image" :src="element.img" alt="Product Image">
                     <div class="carousel_texts d_flex column justify_center">
-                        <h3 class="carousel_name">{{element.name}}</h3>
-                        <h4 class="carousel_tipe">{{element.tipo}}</h4>
-                        <p class="carousel_price">{{element.prezzo}}</p>
+                        <p class="carousel_options">SELECT OPTIONS / QUICK VIEW</p>
                     </div>
+                </div>
+                <div class="carousel_product_elements text-center py-3">
+                    <h3 class="small_product_title">
+                        {{element.name}}
+                    </h3>
+                    <p class="small_price">
+                        {{element.prezzo}}
+                    </p>
                 </div>
             </div>
             <div class="left_arrow d_flex column justify_center">
@@ -48,15 +68,15 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.small_carousel {
+.long_carousel {
     position: relative;
 }
-.small_carousel_elements {
+.long_carousel_elements {
     position: relative;
 }
 
-.small_carousel_image {
-    width: 450px;
+.long_carousel_image {
+    width: 250px;
 }
 
 .active {
@@ -121,9 +141,9 @@ export default {
     color: white;  
 }
 
-.carousel_price {
+.carousel_options {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 400;
     color: white;
 }
@@ -145,4 +165,16 @@ export default {
     }
 }
 
+.small_product_title {
+    font-family: 'Playfair Display', serif;
+    color: #5b2ca2;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.small_price {
+    color: #5b2ca2;
+    font-weight: 100;
+    font-size: 13px;
+}
 </style>

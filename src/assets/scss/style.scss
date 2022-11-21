@@ -28,9 +28,9 @@ Global
     padding-right: 100px;
 }
 
-.container_100_topbottom {
+.container_50_topbottom {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 /*General Settings*/
@@ -84,6 +84,11 @@ Global
     font-size: 50px;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
+}
+
+.small_caption {
+    color: #929295;
+    font-size: 13px;
 }
 
 .small_title {
