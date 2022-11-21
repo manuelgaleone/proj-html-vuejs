@@ -75,6 +75,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.header_content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color:(0,0,0);
+    position: absolute;
+    width: 100%;
+}
 .header_container {
     background-color:transparent;
 }

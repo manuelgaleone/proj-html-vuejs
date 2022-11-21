@@ -8,11 +8,11 @@ export default {
   <div class="main_jumbo">
     <div class="jumbo_container">
         <div class="row">
-            <div class="col jumbo_elements">
-                <p class="jumbo_subtitle">
+            <div class="col jumbo_elements container_100_leftright">
+                <p class="subtitle">
                     FRESH & TASTY BAKERY EVERY DAY
                 </p>
-                <h1 class="jumbo_title">
+                <h1 class="big_title">
                     The Perfect Fresh <br>
                     Bread
                 </h1>
@@ -39,22 +39,6 @@ export default {
 
 .jumbo_container {
     overflow: hidden;
-}
-
-.jumbo_elements {
-    padding-left: 100px;
-}
-
-.jumbo_subtitle {
-    color: #929295;
-    font-size: 13px;
-}
-
-.jumbo_title {
-    color: #5b2ca2;
-    font-size: 50px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 800;
 }
 
 .jumbo_caption {

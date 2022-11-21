@@ -23,12 +23,9 @@ Global
 
 */
 
-.header_content {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    background-color:(0,0,0);
-    position: absolute;
-    width: 100%;
+.container_100_leftright {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /*General Settings*/
@@ -42,4 +39,33 @@ Global
 
 .justify_start {
     justify-content: start;
+}
+
+.subtitle {
+    color: #929295;
+    font-size: 13px;
+}
+
+.big_title {
+    color: #5b2ca2;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+.small_title {
+    color: #5b2ca2;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+.violet_button {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #5b2ca2;
+    text-decoration: none;
 }
