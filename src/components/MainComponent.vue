@@ -2,12 +2,14 @@
 import HeaderComponent from "../components/HeaderComponent.vue"
 import JumboComponent from "../components/JumboComponent.vue"
 import OurProductsComponent from "../components/OurProductsComponent.vue"
+import WeddingsComponent from "../components/WeddingsComponent.vue"
 
 export default {
   components:{
     HeaderComponent,
     JumboComponent,
-    OurProductsComponent
+    OurProductsComponent,
+    WeddingsComponent
   }
 }
 </script>
@@ -16,6 +18,7 @@ export default {
   <HeaderComponent></HeaderComponent>
   <JumboComponent></JumboComponent>
   <OurProductsComponent></OurProductsComponent>
+  <WeddingsComponent></WeddingsComponent>
 </template>
 
 <style lang="scss" scoped>

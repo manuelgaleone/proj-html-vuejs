@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="our_products_content container_100_leftright">
+  <div class="container_100_topbottom container_100_leftright">
     <div class="row">
         <!--Left Text elements-->
         <div class="col-4 p-0">
@@ -36,9 +36,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.our_products_content {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 </style>

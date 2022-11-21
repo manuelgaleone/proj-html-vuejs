@@ -28,9 +28,18 @@ Global
     padding-right: 100px;
 }
 
+.container_100_topbottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /*General Settings*/
 .d_flex {
     display: flex;
+}
+
+.color_white {
+    color: white;
 }
 
 .column {
