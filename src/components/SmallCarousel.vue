@@ -25,9 +25,9 @@ export default {
 </script>
 
 <template>
-    <div class="small_carousel d_flex align_items justify_center">
+    <div class="small_carousel d_flex align_items justify_end">
         <div class="small_carousel_elements d_flex align_items">
-            <div v-for="element in carouselElements">
+            <div v-for="element in carouselElements" class="mx-2">
                 <div class="carousel_image_container">
                     <img :class="{ active: element.active }" class="small_carousel_image" :src="element.img" alt="Product Image">
                     <div class="carousel_texts d_flex column justify_center">
@@ -37,10 +37,10 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="left_arrow">
+            <div class="left_arrow d_flex column justify_center">
                 <i class="fa-solid fa-chevron-left"></i>
             </div>
-            <div class="right_arrow">
+            <div class="right_arrow d_flex column justify_center">
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
         </div>
@@ -48,7 +48,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+.small_carousel {
+    position: relative;
+}
 .small_carousel_elements {
     position: relative;
 }
@@ -65,10 +67,12 @@ export default {
     background-color: #5b2ca2;
     opacity: 0.5;
     padding: 10px;
+    height: 50px;
     cursor: pointer;
     color: white;
     position: absolute;
     left: 0;
+    margin-left: 8px;
 }
 
 .left_arrow:hover {
@@ -80,10 +84,12 @@ export default {
     background-color: #5b2ca2;
     opacity: 0.5;
     padding: 10px;
+    height: 50px;
     cursor: pointer;
     color: white;
     position: absolute;
     right: 0;
+    margin-right: 8px;
 }
 
 .right_arrow:hover {
@@ -93,6 +99,7 @@ export default {
 
 .carousel_image_container {
     position: relative;
+
 }
 
 .carousel_texts {

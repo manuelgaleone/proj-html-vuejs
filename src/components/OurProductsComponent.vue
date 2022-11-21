@@ -27,7 +27,7 @@ export default {
         </div>
         <!--//Left Text elements-->
         <!--Right Small carousel-->
-        <div class="col-8">
+        <div class="col-8 p-0">
             <SmallCarousel></SmallCarousel>
         </div>
         <!--//Right Small carousel-->
