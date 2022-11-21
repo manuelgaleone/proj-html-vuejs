@@ -49,7 +49,7 @@ export default {
 </script>
 
 <template>
-  <div class="header_content p-4">
+  <div class="header_content p-3">
     <div class="header_container">
         <div class="row justify-between align_items">
             <!--Left Logo-->
@@ -58,14 +58,14 @@ export default {
             </div>
             <!--//Left Logo-->
             <!--Right Menù-->
-            <div class="col-8">
+            <div class="col-8 px-4">
                 <div class="navigation_content d-flex align_items justify_end">
                     <ul class="d-flex align_items justify_end m-0">
-                        <li class="menu_element px-4" v-for="item in menuItems">
+                        <li class="menu_element px-3" v-for="item in menuItems">
                             <a class="menu_item pb-2" :class="{ active: item.active }" :href="item.link">{{item.name}}</a>
                         </li>
                     </ul>
-                    <i class="fa-solid fa-cart-shopping cart_icon"></i>
+                    <i class="fa-solid fa-cart-shopping cart_icon px-4"></i>
                 </div>
             </div>
             <!--//Right Menù-->
@@ -75,6 +75,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.header_container {
+    background-color:transparent;
+}
 
 .header_logo {
     width: 150px;
@@ -85,14 +88,26 @@ export default {
 
 .menu_item {
     text-decoration: none;
-    color: #5b2ca2;
+    color: #bda2f3;
     font-size: 13px;
 }
 
-.cart_icon {
+.menu_item:hover {
+    transition: 0.4s;
     color: #5b2ca2;
+    border-bottom: 2px solid #5b2ca2;
+}
+
+.cart_icon {
+    color: #bda2f3;
     width: 20px;
     
+}
+
+.cart_icon:hover {
+    transition: 0.4s;
+    color: #5b2ca2;
+    cursor: pointer;
 }
 
 .active {
