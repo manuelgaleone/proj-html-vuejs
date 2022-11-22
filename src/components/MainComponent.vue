@@ -6,6 +6,7 @@ import WeddingsComponent from "../components/WeddingsComponent.vue"
 import BakeryCarouselComponent from "../components/BakeryCarouselComponent.vue"
 import ProcessesComponent from "../components/ProcessesComponent.vue"
 import OrderPickComponent from "../components/OrderPickComponent.vue"
+import VisitBakeryComponent from "../components/VisitBakeryComponent.vue"
 
 export default {
   components:{
@@ -15,7 +16,8 @@ export default {
     WeddingsComponent,
     BakeryCarouselComponent,
     ProcessesComponent,
-    OrderPickComponent
+    OrderPickComponent,
+    VisitBakeryComponent
 }
 }
 </script>
@@ -36,6 +38,9 @@ export default {
   <!--GridProcesses-->
   <ProcessesComponent></ProcessesComponent>
   <!--//GridProcesses-->
+  <!--VisitBakeryComponent-->
+  <VisitBakeryComponent></VisitBakeryComponent>
+  <!--//VisitBakeryComponent-->
   <!--OrderPickComponent-->
   <OrderPickComponent></OrderPickComponent>
   <!--//OrderPickComponent-->
