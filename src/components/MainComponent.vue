@@ -19,9 +19,6 @@ export default {
 </script>
 
 <template>
-  <!--HeaderContent-->
-  <HeaderComponent></HeaderComponent>
-  <!--//HeaderContent-->
   <!--JumboContent-->
   <JumboComponent></JumboComponent>
   <!--//JumboContent-->

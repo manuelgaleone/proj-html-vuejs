@@ -54,8 +54,20 @@ Global
     margin-right: 10px;
 }
 
+.ml_3 {
+    margin-left: 25px;
+}
+
 .pr-0 {
     padding-right: 0;
+}
+
+.pr-3 {
+    padding-right: 25px;
+}
+
+.pr_4 {
+    padding-right: 25px;
 }
 
 .pl-5 {
@@ -121,6 +133,7 @@ Global
     border-radius: 5px;
     background-color: #5b2ca2;
     text-decoration: none;
+    border: none;
 }
 
 .violet_button:hover {

@@ -74,7 +74,7 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .header_content {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
