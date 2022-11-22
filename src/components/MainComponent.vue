@@ -20,6 +20,11 @@ export default {
     OrderPickComponent,
     InTouchComponent,
     VisitBakeryComponent
+},
+methods: {
+  scrollToTop() {
+    window.scrollTo(0,0);
+  }
 }
 }
 </script>
@@ -49,7 +54,29 @@ export default {
   <!--OrderPickComponent-->
   <OrderPickComponent></OrderPickComponent>
   <!--//OrderPickComponent-->
+  <div class="scrolltop_button">
+    <div @click="scrollToTop" class="scrolltop_element d_flex justify_center">
+      <i class="fa-solid fa-chevron-up color_white"></i>
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
+.scrolltop_element {
+  background-color: black;
+  padding: 15px;
+  position: fixed;
+  border-radius: 5px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  right: 0;
+  bottom: 0;
+}
+
+.scrolltop_element:hover {
+  background-color: #bda2f3;
+  transition: 0.4s;
+  cursor: pointer;
+  
+}
 </style>

@@ -17,7 +17,7 @@ export default {
             <p class="subtitle">
                 OUR PRODUCTS
             </p>
-            <h2 class="small_title">
+            <h2 class="ourproducts_title">
                 All our detectable pastries are <br>
                 backed fresh in our Kitchen very <br>
                 morning, and are made with all- <br>
@@ -36,5 +36,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
+.ourproducts_title {
+    color: #5b2ca2;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
 </style>

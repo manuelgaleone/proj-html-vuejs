@@ -54,15 +54,12 @@ export default {
 .small_carousel_elements {
     position: relative;
 }
-
 .small_carousel_image {
-    width: 450px;
+    width: 550px;
 }
-
 .active {
     display: inline-block;
 }
-
 .left_arrow {
     background-color: #5b2ca2;
     opacity: 0.5;
@@ -74,12 +71,10 @@ export default {
     left: 0;
     margin-left: 8px;
 }
-
 .left_arrow:hover {
     transition: 0.4s;
     background-color: #bda2f3;
 }
-
 .right_arrow {
     background-color: #5b2ca2;
     opacity: 0.5;
@@ -91,17 +86,13 @@ export default {
     right: 0;
     margin-right: 8px;
 }
-
 .right_arrow:hover {
     transition: 0.4s;
     background-color: #bda2f3;
 }
-
 .carousel_image_container {
     position: relative;
-
 }
-
 .carousel_texts {
     opacity: 0;
     position: absolute;
@@ -113,30 +104,25 @@ export default {
     bottom: 0;
     text-align: center;
 }
-
 .carousel_name {
     font-family: 'Playfair Display', serif;
     font-size: 25px;
     font-weight: 700;
     color: white;  
 }
-
 .carousel_price {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
     color: white;
 }
-
 .carousel_tipe {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: white;
 }
-
 .carousel_image_container:hover {
-
     .carousel_texts {
         opacity: 1;
         background-color: rgba(0, 0, 0, 0.253);
@@ -144,5 +130,4 @@ export default {
         cursor: pointer;
     }
 }
-
 </style>

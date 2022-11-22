@@ -45,7 +45,7 @@ export default {
     <!--Second process-->
     <div class="container_100_leftright">
         <div class="baking_container">
-            <div class="row justify_between align_items mx-0 py-4">
+            <div class="row justify_between mx-0 py-4">
                 <!--Left-->
                 <div class="col-6">
                     <div class="start_baking row align_items justify_between">
@@ -74,23 +74,25 @@ export default {
                 </div>
                 <!--//Left-->
                 <!--Right-->
-                <div class="col-6 pl-5 pr-0 d_flex column justify_center">
-                    <div class="baking_phrase d_flex column justify_center">
-                        <p class="subtitle">
-                            DON'T TAKE OUR WORD FOR IT
-                        </p>
-                        <h2 class="medium_title">
-                            "Finally found an alternative to <br>
-                            the mass produced products. <br>
-                            Something that incorporates <br>
-                            real organic ingredients, <br>
-                            nutrient dense wellness while <br>
-                            promoting sustainability and <br>
-                            activity"
-                        </h2>
-                        <p class="subtitle">
-                            Rachel Cooper, Founder
-                        </p>
+                <div class="col-6 pl-5 pr-0">
+                    <div class="baking_phrase d_flex justify_center column">
+                        <div class="d_flex column justify_center">
+                            <p class="subtitle">
+                                DON'T TAKE OUR WORD FOR IT
+                            </p>
+                            <h2 class="medium_title">
+                                "Finally found an alternative to <br>
+                                the mass produced products. <br>
+                                Something that incorporates <br>
+                                real organic ingredients, <br>
+                                nutrient dense wellness while <br>
+                                promoting sustainability and <br>
+                                activity"
+                            </h2>
+                            <p class="subtitle">
+                                Rachel Cooper, Founder
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <!--//Right-->
@@ -156,10 +158,8 @@ export default {
 
 .baking_phrase {
     background-color: #F4EEF3;
-    height: 706px;
-    width: 100%;
     padding: 75px;
-
+    height: 100%;
 }
 
 .process_title {
