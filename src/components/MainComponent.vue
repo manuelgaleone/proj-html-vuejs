@@ -4,7 +4,8 @@ import JumboComponent from "../components/JumboComponent.vue"
 import OurProductsComponent from "../components/OurProductsComponent.vue"
 import WeddingsComponent from "../components/WeddingsComponent.vue"
 import BakeryCarouselComponent from "../components/BakeryCarouselComponent.vue"
-import ProcessesComponent from "./ProcessesComponent.vue"
+import ProcessesComponent from "../components/ProcessesComponent.vue"
+import OrderPickComponent from "../components/OrderPickComponent.vue"
 
 export default {
   components:{
@@ -13,7 +14,8 @@ export default {
     OurProductsComponent,
     WeddingsComponent,
     BakeryCarouselComponent,
-    ProcessesComponent
+    ProcessesComponent,
+    OrderPickComponent
 }
 }
 </script>
@@ -34,6 +36,9 @@ export default {
   <!--GridProcesses-->
   <ProcessesComponent></ProcessesComponent>
   <!--//GridProcesses-->
+  <!--OrderPickComponent-->
+  <OrderPickComponent></OrderPickComponent>
+  <!--//OrderPickComponent-->
 </template>
 
 <style lang="scss" scoped>

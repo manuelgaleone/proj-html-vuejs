@@ -43,7 +43,7 @@ export default {
         <div class="long_carousel_elements d_flex align_items">
             <div v-for="element in longCarouselElements" class="mx-2">
                 <div class="carousel_image_container">
-                    <img :class="{ active: element.active }" class="long_carousel_image" :src="element.img" alt="Product Image">
+                    <img class="long_carousel_image" :src="element.img" alt="Product Image">
                     <div class="carousel_texts d_flex column justify_center">
                         <p class="carousel_options">SELECT OPTIONS / QUICK VIEW</p>
                     </div>

@@ -28,6 +28,11 @@ Global
     padding-right: 100px;
 }
 
+.container_300_leftright {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
 .container_50_topbottom {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -139,5 +144,23 @@ Global
 .violet_button:hover {
     background-color: #bda2f3;
     color: #5b2ca2;
+    transition: 0.4s;
+}
+
+.white_button {
+    display: inline-block;
+    background-color: white;
+    color: #5b2ca2;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    width: 200px;
+    text-align: center;
+}
+
+.white_button:hover {
+    background-color: #5b2ca2;
+    color: white;
     transition: 0.4s;
 }

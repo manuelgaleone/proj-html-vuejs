@@ -46,7 +46,7 @@ export default {
 
 <template>
     <div class="container_100_leftright">
-        <div class="footer_content">
+        <div class="footer_content p-0">
             <div class="row align_items justify_between">
                 <div class="col-6">
                     <div class="left_elements">

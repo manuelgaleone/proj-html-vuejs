@@ -29,7 +29,7 @@ export default {
         <div class="small_carousel_elements d_flex align_items">
             <div v-for="element in carouselElements" class="mx-2">
                 <div class="carousel_image_container">
-                    <img :class="{ active: element.active }" class="small_carousel_image" :src="element.img" alt="Product Image">
+                    <img class="small_carousel_image" :src="element.img" alt="Product Image">
                     <div class="carousel_texts d_flex column justify_center">
                         <h3 class="carousel_name">{{element.name}}</h3>
                         <h4 class="carousel_tipe">{{element.tipo}}</h4>

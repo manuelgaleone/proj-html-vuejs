@@ -21,7 +21,7 @@ export default {
                     Rem ducimus eveniet molestiae laborum totam nobis modi temporibus? <br>
                     Eaque, excepturi debitis voluptatum sit.
                 </p>
-                <a class="jumbo_button" href="#">Explore our products</a>
+                <a class="white_button" href="#">Explore our products</a>
             </div>
         </div>
     </div>
@@ -41,21 +41,5 @@ export default {
     overflow: hidden;
 }
 
-.jumbo_button {
-    display: inline-block;
-    background-color: white;
-    color: #5b2ca2;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 13px;
-    width: 200px;
-    text-align: center;
-}
 
-.jumbo_button:hover {
-    background-color: #5b2ca2;
-    color: white;
-    transition: 0.4s;
-}
 </style>
