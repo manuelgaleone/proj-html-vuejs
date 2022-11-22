@@ -54,6 +54,14 @@ Global
     margin-right: 10px;
 }
 
+.pr-0 {
+    padding-right: 0;
+}
+
+.pl-5 {
+    padding-left: 35px;
+}
+
 .justify_end {
     justify-content: end;
 }
@@ -94,6 +102,13 @@ Global
 .small_title {
     color: #5b2ca2;
     font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+.medium_title {
+    color: #5b2ca2;
+    font-size: 46px;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
 }

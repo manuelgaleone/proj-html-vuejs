@@ -19,12 +19,24 @@ export default {
 </script>
 
 <template>
+  <!--HeaderContent-->
   <HeaderComponent></HeaderComponent>
+  <!--//HeaderContent-->
+  <!--JumboContent-->
   <JumboComponent></JumboComponent>
+  <!--//JumboContent-->
+  <!--OurProductsContent-->
   <OurProductsComponent></OurProductsComponent>
+  <!--//OurProductsContent-->
+  <!--CorporateWeddings-->
   <WeddingsComponent></WeddingsComponent>
+  <!--//CorporateWeddings-->
+  <!--LongCarousel-->
   <BakeryCarouselComponent></BakeryCarouselComponent>
+  <!--//LongCarousel-->
+  <!--GridProcesses-->
   <ProcessesComponent></ProcessesComponent>
+  <!--//GridProcesses-->
 </template>
 
 <style lang="scss" scoped>
