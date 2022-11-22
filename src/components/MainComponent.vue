@@ -7,6 +7,7 @@ import BakeryCarouselComponent from "../components/BakeryCarouselComponent.vue"
 import ProcessesComponent from "../components/ProcessesComponent.vue"
 import OrderPickComponent from "../components/OrderPickComponent.vue"
 import VisitBakeryComponent from "../components/VisitBakeryComponent.vue"
+import InTouchComponent from "../components/InTouchComponent.vue"
 
 export default {
   components:{
@@ -17,6 +18,7 @@ export default {
     BakeryCarouselComponent,
     ProcessesComponent,
     OrderPickComponent,
+    InTouchComponent,
     VisitBakeryComponent
 }
 }
@@ -41,6 +43,9 @@ export default {
   <!--VisitBakeryComponent-->
   <VisitBakeryComponent></VisitBakeryComponent>
   <!--//VisitBakeryComponent-->
+   <!--InTouchComponent-->
+   <InTouchComponent></InTouchComponent>
+  <!--//InTouchComponent-->
   <!--OrderPickComponent-->
   <OrderPickComponent></OrderPickComponent>
   <!--//OrderPickComponent-->

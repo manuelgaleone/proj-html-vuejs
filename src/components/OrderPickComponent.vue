@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div class="pt-15 container_50_topbottom">
+    <div class="container_50_topbottom">
         <!--Section Texts-->
         <div class="pick_content container_300_leftright container_50_topbottom ">
             <p class="pick_subtitle">

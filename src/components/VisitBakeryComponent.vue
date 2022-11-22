@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-    <div class="pb-15 pt-15 container_100_leftright">
+    <div class="pt-15 pb-15 container_100_leftright">
         <!--Top texts-->
         <div class="top_titles text-center">
             <p class="subtitle">
