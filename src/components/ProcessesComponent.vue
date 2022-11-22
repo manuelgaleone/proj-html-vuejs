@@ -46,6 +46,7 @@ export default {
     <div class="container_100_leftright">
         <div class="baking_container">
             <div class="row justify_between align_items mx-0 py-4">
+                <!--Left-->
                 <div class="col-6">
                     <div class="start_baking row align_items justify_between">
                         <div class="col-6">
@@ -55,7 +56,7 @@ export default {
                         </div>
                         <div class="col-6 d_flex justify_end">
                             <p class="process_number">
-                                01
+                                02
                             </p>
                         </div>
                         <div class="col-4 baking_caption">
@@ -71,8 +72,10 @@ export default {
                         </div>
                     </div>
                 </div>
+                <!--//Left-->
+                <!--Right-->
                 <div class="col-6 pl-5 pr-0 d_flex column justify_center">
-                    <div class="baking_phrase">
+                    <div class="baking_phrase d_flex column justify_center">
                         <p class="subtitle">
                             DON'T TAKE OUR WORD FOR IT
                         </p>
@@ -90,6 +93,7 @@ export default {
                         </p>
                     </div>
                 </div>
+                <!--//Right-->
             </div>
         </div>
     </div>
@@ -152,8 +156,9 @@ export default {
 
 .baking_phrase {
     background-color: #F4EEF3;
-    padding: 93px;
+    height: 706px;
     width: 100%;
+    padding: 75px;
 
 }
 

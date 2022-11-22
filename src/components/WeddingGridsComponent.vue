@@ -7,6 +7,7 @@ export default {
 <template>
 <div class="wedding_grid_container">
     <div class="row py-5 justify_around">
+        <!--Left square-->
         <div class="col-6 wedding_grid_images d_flex justify_center">
             <img class="wedding_images" src="../assets/img/corporate-bg.jpg" alt="Wedding image">
             <div class="image_hover d_flex justify_center">
@@ -18,6 +19,8 @@ export default {
                 </div>
             </div>
         </div>
+        <!--//Left square-->
+        <!--Right square-->
         <div class="col-6 wedding_grid_images d_flex justify_center">
             <img class="wedding_images" src="../assets/img/wedding-bg.jpg" alt="Wedding image">
             <div class="image_hover d_flex justify_center">
@@ -29,6 +32,7 @@ export default {
                 </div>
             </div>
         </div>
+        <!--//Right square-->
     </div>
 </div>
 </template>

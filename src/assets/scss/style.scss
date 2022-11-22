@@ -10,7 +10,6 @@ Fonts:
 
 Palette:
 
-Global
     marrone chiaro #6a5243
     grigio scuro/nero #0e0eOd
     grigio #929295
@@ -38,7 +37,6 @@ Global
     padding-bottom: 50px;
 }
 
-/*General Settings*/
 .d_flex {
     display: flex;
 }
@@ -77,6 +75,19 @@ Global
 
 .pl-5 {
     padding-left: 35px;
+}
+
+.ptb-5 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.pt-15 {
+    padding-top: 150px;
+}
+
+.pb-15 {
+    padding-bottom: 150px;
 }
 
 .justify_end {
@@ -125,7 +136,7 @@ Global
 
 .medium_title {
     color: #5b2ca2;
-    font-size: 46px;
+    font-size: 43px;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
 }

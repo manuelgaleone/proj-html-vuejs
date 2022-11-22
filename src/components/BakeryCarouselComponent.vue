@@ -10,8 +10,9 @@ export default {
 </script>
 
 <template>
-    <div class="pt-10 pb-10 container_100_leftright">
+    <div class="pb-15 container_100_leftright">
         <div class="row">
+            <!--Left Text-->
             <div class="col-3 text-center d_flex column justify_center">
                 <h2 class="small_title">
                     Find a freshly baked <br>
@@ -22,9 +23,12 @@ export default {
                 </p>
                 <a class="long_carousel_button" href="#">Shop All Products</a>
             </div>
+            <!--//Left Text-->
+            <!--Right Carousel-->
             <div class="col-9">
                 <LongCarouselComponent></LongCarouselComponent>
             </div>
+            <!--//Right Carousel-->
         </div>
     </div>
 </template>

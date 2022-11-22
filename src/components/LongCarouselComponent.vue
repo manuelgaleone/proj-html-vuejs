@@ -41,7 +41,8 @@ export default {
 <template>
     <div class="long_carousel d_flex align_items justify_end">
         <div class="long_carousel_elements d_flex align_items">
-            <div v-for="element in longCarouselElements" class="mx-2">
+            <div v-for="element in longCarouselElements" class="pl-5">
+                <!--Long Carousel-->
                 <div class="carousel_image_container">
                     <img class="long_carousel_image" :src="element.img" alt="Product Image">
                     <div class="carousel_texts d_flex column justify_center">
@@ -57,12 +58,15 @@ export default {
                     </p>
                 </div>
             </div>
+            <!--//Long Carousel-->
+            <!--Arrows-->
             <div class="left_arrow d_flex column justify_center">
                 <i class="fa-solid fa-chevron-left"></i>
             </div>
             <div class="right_arrow d_flex column justify_center">
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
+            <!--//Arrows-->
         </div>
     </div>
 </template>
@@ -91,8 +95,7 @@ export default {
     cursor: pointer;
     color: white;
     position: absolute;
-    left: 0;
-    margin-left: 8px;
+    margin-left: 35px;
 }
 
 .left_arrow:hover {
@@ -109,7 +112,6 @@ export default {
     color: white;
     position: absolute;
     right: 0;
-    margin-right: 8px;
 }
 
 .right_arrow:hover {

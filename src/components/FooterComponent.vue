@@ -48,6 +48,7 @@ export default {
     <div class="container_100_leftright">
         <div class="footer_content p-0">
             <div class="row align_items justify_between">
+                <!--Left Elements-->
                 <div class="col-6">
                     <div class="left_elements">
                         <img class="footer_logo" src="../assets/img/avada-bakery-logo-retina-300x145.png" alt="Bakery logo">
@@ -71,6 +72,8 @@ export default {
                         </div>
                     </div>
                 </div>
+                <!--//Left Elements-->
+                <!--Right Elements-->
                 <div class="col-6">
                     <div class="right_content">
                         <div class="small_title d_flex justify_end py-4">
@@ -90,7 +93,7 @@ export default {
                         </div>
                     </div>
                 </div>
-
+                <!--//Right Elements-->
             </div>
         </div>
     </div>

@@ -10,7 +10,8 @@ export default {
 </script>
 
 <template>
-  <div class="pt-10 pb-10 container_100_leftright">
+  <div class="pb-15 container_100_leftright">
+    <!--Weddings Texts-->
     <div class="weddings_titles">
         <p class="subtitle text-center">
             CORPORATE & WEDDINGS
@@ -19,7 +20,10 @@ export default {
             Baking Special Moments
         </h3>
     </div>
+    <!--//Weddings Texts-->
+    <!--Weddings Grids-->
     <WeddingGridsComponent></WeddingGridsComponent>
+    <!--//Weddings Grids-->
   </div>
 </template>
 

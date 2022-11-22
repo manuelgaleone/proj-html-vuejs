@@ -8,6 +8,7 @@ export default {
   <div class="main_jumbo">
     <div class="jumbo_container">
         <div class="row">
+            <!--Jumbo Texts-->
             <div class="col jumbo_elements container_100_leftright">
                 <p class="subtitle">
                     FRESH & TASTY BAKERY EVERY DAY
@@ -23,6 +24,7 @@ export default {
                 </p>
                 <a class="white_button" href="#">Explore our products</a>
             </div>
+            <!--//Jumbo Texts-->
         </div>
     </div>
   </div>
@@ -40,6 +42,5 @@ export default {
 .jumbo_container {
     overflow: hidden;
 }
-
 
 </style>

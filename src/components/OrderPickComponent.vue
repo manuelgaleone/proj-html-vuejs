@@ -5,7 +5,8 @@ export default {
 </script>
 
 <template>
-    <div class="container_50_topbottom">
+    <div class="pt-15 container_50_topbottom">
+        <!--Section Texts-->
         <div class="pick_content container_300_leftright container_50_topbottom ">
             <p class="pick_subtitle">
                 TRY OUR SEASONAL PRODUCTS
@@ -16,6 +17,7 @@ export default {
             </h3>
             <a class="white_pick_button my-5" href="#">Shop now</a>
         </div>
+        <!--//Section Texts-->
     </div>
 </template>
 
