@@ -1,24 +1,11 @@
 <script>
+import {smallcarouseldata} from "../smallcarouseldata.js"
+
 export default {
     name:"Small Carousel",
     data() {
         return {
-            carouselElements:[
-            {
-                name: "Choco Chips Cookies",
-                tipo: "Biscotti",
-                prezzo: "$19.00 - $25.00",
-                img:"../src/assets/img/choco-chip-cookies-400x510.jpg",
-                active: true
-            },
-            {
-                name: "Strawberry Jam Cookies",
-                tipo: "Biscotti",
-                prezzo: "$23.00 - $29.00",
-                img:"../src/assets/img/strawberry-jam-cookies-400x510.jpg",
-                active: true
-            },
-            ]
+            smallcarouseldata
         }
     }
 }
@@ -27,7 +14,7 @@ export default {
 <template>
     <div class="small_carousel d_flex align_items justify_end">
         <div class="small_carousel_elements d_flex align_items">
-            <div v-for="element in carouselElements" class="mx-2">
+            <div v-for="element in smallcarouseldata.smallCarouselElements" class="mx-2">
                 <div class="carousel_image_container">
                     <img class="small_carousel_image" :src="element.img" alt="Product Image">
                     <div class="carousel_texts d_flex column justify_center">

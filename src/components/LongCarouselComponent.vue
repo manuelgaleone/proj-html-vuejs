@@ -1,38 +1,11 @@
 <script>
+import {longcarouseldata} from "../longcarouseldata.js"
+
 export default {
     name:"Long Carousel Component",
     data() {
         return {
-            longCarouselElements:[
-            {
-                name: "Choco Chips Cookies",
-                tipo: "Biscotti",
-                prezzo: "$19.00 - $25.00",
-                img:"../src/assets/img/choco-chip-cookies-400x510.jpg",
-                active: true
-            },
-            {
-                name: "Strawberry Jam Cookies",
-                tipo: "Biscotti",
-                prezzo: "$23.00 - $29.00",
-                img:"../src/assets/img/strawberry-jam-cookies-400x510.jpg",
-                active: true
-            },
-            {
-                name: "Strawberry Donut",
-                tipo: "Ciambelline",
-                prezzo: "$13.00 - $29.00",
-                img:"../src/assets/img/strawberry-donut-400x510.jpg",
-                active: true
-            },
-            {
-                name: "Perfect Macarons",
-                tipo: "Biscotti",
-                prezzo: "$23.00 - $29.00",
-                img:"../src/assets/img/perfect-macarons-400x510.jpg",
-                active: true
-            }
-            ]
+            longcarouseldata
         }
     }
 }
@@ -41,7 +14,7 @@ export default {
 <template>
     <div class="long_carousel d_flex align_items justify_end">
         <div class="long_carousel_elements d_flex align_items">
-            <div v-for="element in longCarouselElements" class="pl-5">
+            <div v-for="element in longcarouseldata.longCarouselElements" class="pl-5">
                 <!--Long Carousel-->
                 <div class="carousel_image_container">
                     <img class="long_carousel_image" :src="element.img" alt="Product Image">
