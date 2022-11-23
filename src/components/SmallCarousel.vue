@@ -1,20 +1,41 @@
 <script>
 import {smallcarouseldata} from "../smallcarouseldata.js"
-
 export default {
     name:"Small Carousel",
     data() {
         return {
+            imgAttiva: 0,
             smallcarouseldata
         }
-    }
+    },
+    methods:{
+        precImg() {
+            this.imgAttiva--
+
+            if (this.imgAttiva < 0) {
+                this.imgAttiva = this.smallcarouseldata.smallCarouselElements.length - 1
+            }
+        },
+        proxImg() {
+          this.imgAttiva++
+
+          if(this.imgAttiva > this.smallcarouseldata.smallCarouselElements.length -1) {
+            this.imgAttiva = 0;
+        }
+        },
+    },
+    mounted() {
+        setInterval(() => {
+            this.proxImg();
+        },1000)
+      }
 }
 </script>
 
 <template>
     <div class="small_carousel d_flex align_items justify_end">
         <div class="small_carousel_elements d_flex align_items">
-            <div v-for="element in smallcarouseldata.smallCarouselElements" class="mx-2">
+            <div v-for="(element, index) in smallcarouseldata.smallCarouselElements" :key="index" class="mx-2">
                 <div class="carousel_image_container">
                     <img class="small_carousel_image" :src="element.img" alt="Product Image">
                     <div class="carousel_texts d_flex column justify_center">
@@ -24,10 +45,10 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="left_arrow d_flex column justify_center">
+            <div @click="proxImg" class="left_arrow d_flex column justify_center">
                 <i class="fa-solid fa-chevron-left"></i>
             </div>
-            <div class="right_arrow d_flex column justify_center">
+            <div @click="prevImg" class="right_arrow d_flex column justify_center">
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
         </div>
