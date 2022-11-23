@@ -54,16 +54,16 @@ export default {
                         <img class="footer_logo" src="../assets/img/avada-bakery-logo-retina-300x145.png" alt="Bakery logo">
                         <div class="navigation_content d-flex align_items justify_start">
                             <ul class="d-flex align_items justify_end m-0 p-0">
-                                <li class="menu_element pr-3 py-4" v-for="item in footerMenuItems">
+                                <li class="menu_element px-2 py-4" v-for="item in footerMenuItems">
                                     <a class="menu_item pb-2" :class="{ active: item.active }" :href="item.link">{{item.name}}</a>
                                 </li>
-                            </ul>
-                            <div class="cart_footer d_flex align_items px-1">
-                                <i class="fa-solid fa-cart-shopping cart_icon px-4"></i>
-                                <div class="cart_badge">
-                                    0
+                                <div class="cart_footer d_flex align_items">
+                                    <i class="fa-solid fa-cart-shopping cart_icon px-4"></i>
+                                    <div class="cart_badge">
+                                        0
+                                    </div>
                                 </div>
-                            </div>
+                            </ul>
                         </div>
                         <div class="copyright_footer py-5">
                             <p class="subtitle">
@@ -129,5 +129,11 @@ export default {
 .social_footer {
     color: #5b2ca2;
     font-size: 20px;
+}
+
+.social_footer:hover {
+    color: #bda2f3;
+    transition: 0.4s;
+    cursor: pointer;
 }
 </style>

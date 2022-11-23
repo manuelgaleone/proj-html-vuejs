@@ -61,6 +61,12 @@ export default {
     max-width: 100%;
 }
 
+.intouch_images:hover {
+    cursor: pointer;
+    border: 5px solid white;
+    transition: 0.4s;
+}
+
 .intouch_elements {
     background-color: #F1EDF5;
     height: 100%;

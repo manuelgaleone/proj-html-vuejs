@@ -54,11 +54,13 @@ methods: {
   <!--OrderPickComponent-->
   <OrderPickComponent></OrderPickComponent>
   <!--//OrderPickComponent-->
+  <!--ScrollToTop-->
   <div class="scrolltop_button">
     <div @click="scrollToTop" class="scrolltop_element d_flex justify_center">
       <i class="fa-solid fa-chevron-up color_white"></i>
     </div>
   </div>
+  <!--//ScrollToTop-->
 </template>
 
 <style lang="scss" scoped>
