@@ -1,47 +1,14 @@
 <script>
+import {footerdata} from "../footerdata.js"
+
 export default {
-    name: "Footer Component",
+    name:"Footer Component",
     data() {
         return {
-            footerMenuItems:[
-                {
-                    "name": "Shop",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "About",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "Gallery",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "Locations",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "Journal",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "Contact",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "Orders",
-                    "link": "bakery.com",
-                    "active": false
-                }
-                ]}
+            footerdata
         }
     }
+}
 </script>
 
 <template>
@@ -54,7 +21,7 @@ export default {
                         <img class="footer_logo" src="../assets/img/avada-bakery-logo-retina-300x145.png" alt="Bakery logo">
                         <div class="navigation_content d-flex align_items justify_start">
                             <ul class="d-flex align_items justify_end m-0 p-0">
-                                <li class="menu_element px-2 py-4" v-for="item in footerMenuItems">
+                                <li class="menu_element px-2 py-4" v-for="item in footerdata.footerMenuItems">
                                     <a class="menu_item pb-2" :class="{ active: item.active }" :href="item.link">{{item.name}}</a>
                                 </li>
                                 <div class="cart_footer d_flex align_items">

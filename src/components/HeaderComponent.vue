@@ -1,49 +1,11 @@
 <script>
+import {headerdata} from "../headerdata.js"
+
 export default {
-    data(){
+    data() {
         return {
-            menuItems:[
-                {
-                    "name": "HOME",
-                    "link": "bakery.com",
-                    "active": true
-                },
-                {
-                    "name": "SHOP",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "ABOUT",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "GALLERY",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "LOCATIONS",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "JOURNAL",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "CONTACT",
-                    "link": "bakery.com",
-                    "active": false
-                },
-                {
-                    "name": "MY ACCOUNT",
-                    "link": "bakery.com",
-                    "active": false
-                }
-                ]}
+            headerdata
+        }
     }
 }
 </script>
@@ -61,7 +23,7 @@ export default {
             <div class="col-8 px-4">
                 <div class="navigation_content d-flex align_items justify_end">
                     <ul class="d-flex align_items justify_end m-0">
-                        <li class="menu_element px-3" v-for="item in menuItems">
+                        <li class="menu_element px-3" v-for="item in headerdata.headerMenuItems">
                             <a class="menu_item pb-2" :class="{ active: item.active }" :href="item.link">{{item.name}}</a>
                         </li>
                     </ul>
